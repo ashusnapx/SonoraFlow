@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.sonoraflow.core.audio.player.AudioPlayer
 import com.sonoraflow.core.data.repository.SongRepository
 import com.sonoraflow.core.model.Track
+import com.sonoraflow.core.model.ScanProgress
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -27,7 +28,20 @@ class LibraryViewModel @Inject constructor(
             initialValue = emptyList()
         )
 
+    val scanProgress: StateFlow<ScanProgress> = songRepository.getScanProgress()
+        .stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5_000),
+            initialValue = ScanProgress()
+        )
+
     init {
+        viewModelScope.launch {
+            songRepository.refreshSongs()
+        }
+    }
+
+    fun refresh() {
         viewModelScope.launch {
             songRepository.refreshSongs()
         }
