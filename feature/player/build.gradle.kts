@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -27,10 +28,10 @@ android {
 }
 
 dependencies {
-    implementation(projects.core.ui)
-    implementation(projects.core.model)
-    implementation(projects.core.audio) // Player needs audio
-    implementation(projects.core.common)
+    implementation(project(":core:ui"))
+    implementation(project(":core:model"))
+    implementation(project(":core:audio"))
+    implementation(project(":core:common"))
 
     implementation(libs.androidx.core.ktx)
     implementation(platform(libs.androidx.compose.bom))
@@ -42,4 +43,5 @@ dependencies {
     implementation(libs.androidx.glance.material3)
 
     implementation(libs.hilt.android)
+    ksp(libs.hilt.compiler)
 }

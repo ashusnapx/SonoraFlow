@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -21,16 +22,16 @@ android {
 }
 
 dependencies {
-    implementation(projects.core.model)
-    implementation(projects.core.data)
-    implementation(projects.core.common)
+    implementation(project(":core:model"))
+    implementation(project(":core:data"))
+    implementation(project(":core:common"))
 
     // ML
     implementation(libs.tensorflow.lite)
     implementation(libs.tensorflow.lite.support)
 
     implementation(libs.hilt.android)
-    // ksp(libs.hilt.compiler) // If needed for injection in this module
+    ksp(libs.hilt.compiler)
     
     implementation(libs.kotlinx.coroutines.android)
 }

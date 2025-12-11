@@ -22,10 +22,10 @@ android {
 }
 
 dependencies {
-    implementation(projects.core.model)
-    implementation(projects.core.database)
-    implementation(projects.core.network)
-    implementation(projects.core.common)
+    implementation(project(":core:model"))
+    implementation(project(":core:database"))
+    implementation(project(":core:network"))
+    implementation(project(":core:common"))
 
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)

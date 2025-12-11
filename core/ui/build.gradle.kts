@@ -38,5 +38,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     
     // Design system likely needs resources from common or just self-contained
-    implementation(projects.core.common)
+    implementation(project(":core:common"))
 }

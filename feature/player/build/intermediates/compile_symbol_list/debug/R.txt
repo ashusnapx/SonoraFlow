@@ -1,0 +1,1 @@
+int xml player_widget_info 0x0

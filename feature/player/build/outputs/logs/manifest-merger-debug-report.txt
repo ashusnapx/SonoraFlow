@@ -1,0 +1,36 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:2:1-15:12
+	package
+		INJECTED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:3:5-14:19
+receiver#com.sonoraflow.feature.player.widget.PlayerWidgetReceiver
+ADDED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:4:9-13:20
+	android:exported
+		ADDED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:6:13-36
+	android:name
+		ADDED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:5:13-56
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:7:13-9:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:8:17-84
+	android:name
+		ADDED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:8:25-81
+meta-data#android.appwidget.provider
+ADDED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:10:13-12:62
+	android:resource
+		ADDED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:12:17-59
+	android:name
+		ADDED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:11:17-58
+uses-sdk
+INJECTED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml
+INJECTED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml

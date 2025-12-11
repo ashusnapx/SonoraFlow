@@ -49,17 +49,17 @@ android {
 }
 
 dependencies {
-    implementation(projects.core.ui)
-    implementation(projects.core.common)
-    implementation(projects.core.data)
-    implementation(projects.core.model)
-    implementation(projects.core.audio)
-    
-    implementation(projects.feature.home)
-    implementation(projects.feature.player)
-    implementation(projects.feature.library)
-    implementation(projects.feature.settings)
-    implementation(projects.feature.onboarding)
+    implementation(project(":core:ui"))
+    implementation(project(":core:common"))
+    implementation(project(":core:data"))
+    implementation(project(":core:model"))
+    implementation(project(":core:audio"))
+
+    implementation(project(":feature:home"))
+    implementation(project(":feature:player"))
+    implementation(project(":feature:library"))
+    implementation(project(":feature:settings"))
+    implementation(project(":feature:onboarding"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

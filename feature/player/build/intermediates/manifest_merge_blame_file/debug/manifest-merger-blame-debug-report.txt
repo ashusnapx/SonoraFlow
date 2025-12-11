@@ -1,0 +1,31 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sonoraflow.feature.player" >
+4
+5    <uses-sdk android:minSdkVersion="26" />
+6
+7    <application>
+7-->/Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:3:5-14:19
+8        <receiver
+8-->/Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:4:9-13:20
+9            android:name="com.sonoraflow.feature.player.widget.PlayerWidgetReceiver"
+9-->/Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:5:13-56
+10            android:exported="true" >
+10-->/Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:6:13-36
+11            <intent-filter>
+11-->/Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:7:13-9:29
+12                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+12-->/Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:8:17-84
+12-->/Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:8:25-81
+13            </intent-filter>
+14
+15            <meta-data
+15-->/Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:10:13-12:62
+16                android:name="android.appwidget.provider"
+16-->/Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:11:17-58
+17                android:resource="@xml/player_widget_info" />
+17-->/Users/ashutoshkumar/SonoraFlow/feature/player/src/main/AndroidManifest.xml:12:17-59
+18        </receiver>
+19    </application>
+20
+21</manifest>

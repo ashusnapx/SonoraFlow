@@ -8,7 +8,7 @@ SonoraFlow is a next-generation Android music player designed to bring your loca
 
 ---
 
-## 🏗️ Architected by [Ashutosh Kumar](https://github.com/ashutosh-kumar)
+## 🏗️ Architected by [Ashutosh Kumar](https://github.com/ashusnapx)
 
 This project was conceived, architected, and built by **Ashutosh Kumar** with a focus on modern Android engineering excellence and high-fidelity user experience.
 

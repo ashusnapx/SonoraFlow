@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -27,12 +28,12 @@ android {
 }
 
 dependencies {
-    implementation(projects.core.ui)
-    implementation(projects.core.model)
-    implementation(projects.core.data)
-    implementation(projects.core.common)
-    implementation(projects.core.audio) // For playing
-    implementation(projects.core.ai)    // For recommendations
+    implementation(project(":core:ui"))
+    implementation(project(":core:model"))
+    implementation(project(":core:data"))
+    implementation(project(":core:common"))
+    implementation(project(":core:audio")) // For playing
+    implementation(project(":core:ai"))    // For recommendations
 
     implementation(libs.androidx.core.ktx)
     implementation(platform(libs.androidx.compose.bom))
@@ -42,5 +43,5 @@ dependencies {
     implementation(libs.androidx.material3)
 
     implementation(libs.hilt.android)
-    // kapt or ksp for hilt if needed in features, usually ksp
+    ksp(libs.hilt.compiler)
 }
