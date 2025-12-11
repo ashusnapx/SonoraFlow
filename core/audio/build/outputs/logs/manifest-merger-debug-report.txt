@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1553546980418272439.xml:2:13-83
-INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1553546980418272439.xml:2:13-83
+ADDED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12781356449817941694.xml:2:13-83
+INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12781356449817941694.xml:2:13-83
 	package
-		INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1553546980418272439.xml
+		INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12781356449817941694.xml
 	xmlns:android
-		ADDED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1553546980418272439.xml:2:23-81
+		ADDED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12781356449817941694.xml:2:23-81
 uses-sdk
-INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1553546980418272439.xml reason: use-sdk injection requested
-INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1553546980418272439.xml
-INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1553546980418272439.xml
+INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12781356449817941694.xml reason: use-sdk injection requested
+INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12781356449817941694.xml
+INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12781356449817941694.xml
 	android:targetSdkVersion
-		INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1553546980418272439.xml
+		INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12781356449817941694.xml
 	android:minSdkVersion
-		INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1553546980418272439.xml
+		INJECTED from /Users/ashutoshkumar/SonoraFlow/core/audio/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12781356449817941694.xml
