@@ -3,6 +3,7 @@ package com.sonoraflow.feature.player.widget
 import android.content.Context
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
+import androidx.glance.unit.ColorProvider
 import androidx.compose.ui.unit.dp
 import androidx.glance.GlanceId
 import androidx.glance.GlanceModifier
@@ -55,14 +56,14 @@ class PlayerWidget : GlanceAppWidget() {
         Column(
             modifier = GlanceModifier
                 .fillMaxSize()
-                .background(Color(0xFFFFFBFF)) // Surface color
+                .background(ColorProvider(Color(0xFFFFFBFF))) // Surface color
                 .padding(16.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
                 text = "SonoraFlow",
-                style = TextStyle(color = Color(0xFFA63D13)) // Primary
+                style = TextStyle(color = ColorProvider(Color(0xFFA63D13))) // Primary
             )
             Row(
                 modifier = GlanceModifier.fillMaxWidth().padding(top = 8.dp),
@@ -87,7 +88,7 @@ class PlayerWidget : GlanceAppWidget() {
         Text(
             text = text,
             modifier = GlanceModifier.clickable(onClick).padding(8.dp),
-            style = TextStyle(color = Color.Black)
+            style = TextStyle(color = ColorProvider(Color.Black))
         )
     }
 }

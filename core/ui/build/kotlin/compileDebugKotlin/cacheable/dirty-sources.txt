@@ -1,4 +1,0 @@
-/Users/ashutoshkumar/SonoraFlow/core/ui/src/main/kotlin/com/sonoraflow/core/ui/theme/Color.kt
-/Users/ashutoshkumar/SonoraFlow/core/ui/src/main/kotlin/com/sonoraflow/core/ui/theme/Type.kt
-/Users/ashutoshkumar/SonoraFlow/core/ui/src/main/kotlin/com/sonoraflow/core/ui/theme/Shape.kt
-/Users/ashutoshkumar/SonoraFlow/core/ui/src/main/kotlin/com/sonoraflow/core/ui/theme/Theme.kt

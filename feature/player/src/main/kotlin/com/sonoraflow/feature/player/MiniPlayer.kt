@@ -101,7 +101,7 @@ fun MiniPlayer(
 
                 IconButton(onClick = onPlayPauseClick) {
                     Icon(
-                        imageVector = if (playerState.isPlaying) Icons.Default.Pause else Icons.Default.PlayArrow,
+                        imageVector = if (playerState.isPlaying) Icons.Filled.Pause else Icons.Filled.PlayArrow,
                         contentDescription = if (playerState.isPlaying) "Pause" else "Play"
                     )
                 }

@@ -1,0 +1,193 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+.cxx/
+
+# Gradle files
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IntelliJ IDEA
+*.iml
+.idea/
+*.ipr
+*.iws
+.idea_modules/
+
+# Android Studio
+.DS_Store
+captures/
+.externalNativeBuild
+.navigation/
+*.jks
+*.keystore
+
+# NDK
+obj/
+
+# Android Profiling
+*.hprof
+
+# Signing files
+*.jks
+*.keystore
+key.properties
+signing.properties
+gradle.properties.local
+
+# Keystore files (CRITICAL - NEVER commit these)
+keystore.properties
+release.keystore
+debug.keystore
+*.p12
+*.pem
+
+# API Keys & Secrets (CRITICAL - NEVER commit these)
+secrets.properties
+api_keys.properties
+google-services.json.local
+*.env
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Log Files
+*.log
+
+# Firebase
+google-services.json.backup
+*.mobileprovision
+*.cert
+
+# Kotlin
+*.kt.swp
+*.kt~
+.kotlin/
+
+# Room Database schemas (keep schema exports for version control)
+# Uncomment if you want to ignore schema exports
+# *.json
+
+# TensorFlow Lite models (optional, uncomment if models are large and managed externally)
+# *.tflite
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.directory
+
+# Version control
+.svn/
+.hg/
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# Freeline
+freeline.py
+freeline/
+freeline_project_description.json
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+lint-results*.html
+lint-results*.xml
+
+# KSP (Kotlin Symbol Processing)
+ksp/
+
+# Hilt generated files
+hilt_aggregated_deps/
+
+# Test results
+test-results/
+androidTest-results/
+
+# Coverage reports
+coverage/
+*.exec
+
+# Legacy support library (not needed with AndroidX)
+support-annotations-*.jar
+
+# R8/ProGuard files
+mapping.txt
+seeds.txt
+usage.txt
+missing_rules.txt
+
+# Memory dumps
+*.hprof
+*.dump
+
+# Crashlytics
+crashlytics-build.properties
+fabric.properties
+com_crashlytics_export_strings.xml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Google Services (environment-specific)
+# Keep the production version in repo, ignore local overrides
+google-services.json.dev
+google-services.json.staging
+
+# Miscellaneous
+*.swp
+*~
+.#*
+\#*#
+.classpath
+.project
+.settings/
+.loadpath
+.recommenders

@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8224064646377756421.xml:2:13-83
-INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8224064646377756421.xml:2:13-83
+ADDED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17712366753194074556.xml:2:13-83
+INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17712366753194074556.xml:2:13-83
 	package
-		INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8224064646377756421.xml
+		INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17712366753194074556.xml
 	xmlns:android
-		ADDED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8224064646377756421.xml:2:23-81
+		ADDED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17712366753194074556.xml:2:23-81
 uses-sdk
-INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8224064646377756421.xml reason: use-sdk injection requested
-INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8224064646377756421.xml
-INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8224064646377756421.xml
+INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17712366753194074556.xml reason: use-sdk injection requested
+INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17712366753194074556.xml
+INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17712366753194074556.xml
 	android:targetSdkVersion
-		INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8224064646377756421.xml
+		INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17712366753194074556.xml
 	android:minSdkVersion
-		INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8224064646377756421.xml
+		INJECTED from /Users/ashutoshkumar/SonoraFlow/core/database/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17712366753194074556.xml

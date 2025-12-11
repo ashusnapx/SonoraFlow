@@ -20,6 +20,10 @@ import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.SkipNext
 import androidx.compose.material.icons.filled.SkipPrevious
+import androidx.compose.material.icons.filled.Pause
+import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.SkipNext
+import androidx.compose.material.icons.filled.SkipPrevious
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -181,7 +185,7 @@ fun PlayerScreen(
             ) {
                 IconButton(onClick = viewModel::onPreviousClick, modifier = Modifier.size(48.dp)) {
                     Icon(
-                        imageVector = Icons.Default.SkipPrevious,
+                        imageVector = Icons.Filled.SkipPrevious,
                         contentDescription = "Previous",
                         modifier = Modifier.size(32.dp),
                         tint = MaterialTheme.colorScheme.onBackground
@@ -195,7 +199,7 @@ fun PlayerScreen(
                 ) {
                     IconButton(onClick = viewModel::onPlayPauseClick, modifier = Modifier.fillMaxSize()) {
                         Icon(
-                            imageVector = if (playerState.isPlaying) Icons.Default.Pause else Icons.Default.PlayArrow,
+                            imageVector = if (isPlaying) Icons.Filled.Pause else Icons.Filled.PlayArrow,
                             contentDescription = if (playerState.isPlaying) "Pause" else "Play",
                             modifier = Modifier.size(40.dp),
                             tint = MaterialTheme.colorScheme.onPrimary
@@ -205,7 +209,7 @@ fun PlayerScreen(
 
                 IconButton(onClick = viewModel::onNextClick, modifier = Modifier.size(48.dp)) {
                     Icon(
-                        imageVector = Icons.Default.SkipNext,
+                        imageVector = Icons.Filled.SkipNext,
                         contentDescription = "Next",
                         modifier = Modifier.size(32.dp),
                         tint = MaterialTheme.colorScheme.onBackground
