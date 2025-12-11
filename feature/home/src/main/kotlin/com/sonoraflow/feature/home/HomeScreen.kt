@@ -23,6 +23,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -35,6 +36,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.sonoraflow.core.model.Track
+import java.util.Calendar
 
 @Composable
 fun HomeScreen(
@@ -42,6 +44,16 @@ fun HomeScreen(
     onNavigateToPlayer: () -> Unit
 ) {
     val recommendations by viewModel.recommendations.collectAsState()
+
+    val greeting = remember {
+        val hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY)
+        when (hour) {
+            in 5..11 -> "Good Morning"
+            in 12..16 -> "Good Afternoon"
+            in 17..20 -> "Good Evening"
+            else -> "Good Night"
+        }
+    }
 
     Surface(
         modifier = Modifier.fillMaxSize(),
@@ -52,7 +64,7 @@ fun HomeScreen(
         ) {
             item {
                 Text(
-                    text = "Good Evening",
+                    text = greeting,
                     style = MaterialTheme.typography.displaySmall,
                     color = MaterialTheme.colorScheme.primary,
                     modifier = Modifier.padding(start = 24.dp, top = 48.dp, bottom = 24.dp)
